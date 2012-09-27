@@ -1,0 +1,186 @@
+%Ceci est le fichier à compiler pour avoir le pdf
+%le document se trouve dans document.tex
+%les fichiers qui commencent par "system_" sont des trucs "systèmes"... bref les trucs moches de latex dont tout le monde s'en fout
+%les fichiers qui commencent par "document_" sont les fichiers "jolis". Pas de trucs GeEkS dedans svp !!
+
+
+
+% *** document class ***
+\documentclass[a4paper,8pt]{article}
+%
+% Toutes les options de documentclass sont transmises à toutes les
+% commandes «\usepackage».
+%
+
+\usepackage[utf8]{inputenc}     % UTF 8
+%\usepackage{xspace} %space after a command
+%\usepackage{eurosym} %for the symbol euro
+
+
+
+% pour faire des calculs dans les commandes latex
+\usepackage{calc}
+\usepackage[T1]{fontenc}
+
+% explicite
+\usepackage{url}
+
+% *** color ***
+\usepackage{color}
+
+% Tikz a besoin d'au moins ces versions
+\def\xkeyvalversion{1.8}
+\def\xcolorversion{2.00}
+
+\usepackage{pgf}
+\usepackage{pgfcore}
+%\usepackage{pgfbaseimage}
+%\usepackage{pgfbaselayers}
+%\usepackage{pgfbasepatterns}
+%\usepackage{pgfbaseplot}
+\usepgfmodule{plot}
+%\usepackage{pgfbaseshapes}
+\usepgfmodule{shapes}
+%\usepackage{pgfbasesnakes}
+\usepgfmodule{decorations}
+\usepackage{tikz}
+% chargement des composants
+%\usetikzlibrary{arrows,patterns,plotmarks,shapes,snakes,er,3d,automata,backgrounds,topaths,trees,petri,mindmap}
+\usetikzlibrary{arrows,patterns,plotmarks,er,3d,automata,backgrounds,topaths,trees,petri,mindmap}
+% d'autres librairies possibles : matrix, calendar, folding
+
+
+\usepackage{graphicx}
+
+% *** array ***
+% étend les options des environnements «array» et «tabular»
+\usepackage{array}
+
+
+
+% packages matheux
+\usepackage{amsmath}
+\usepackage{amssymb}  % \mathbb
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it} % \mathpzc
+%\usepackage{dsfont}   % \mathds
+\usepackage{mathrsfs} % \mathscr
+
+
+
+\usepackage{fancyvrb}
+%\usepackage{verbdef}
+
+
+% *** draftcopy ***
+% imprime «brouillon» en fond de page
+%\usepackage{draftcopy}
+
+
+
+%\usepackage{hyperref}
+\usepackage[bookmarks={true},bookmarksopen={true}]{hyperref}
+%\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+%pour faire un pdf avec une table des matières
+%\hypersetup{colorlinks,citecolor=black,filecolor=black,linkcolor=black,urlcolor=blue}
+%\href{http://latex.developpez.com/faq}{La FAQ Latex de developpez.com}
+
+
+\usepackage[landscape]{geometry}
+
+\oddsidemargin -2.25cm
+\evensidemargin -2.25cm
+\marginparwidth 0cm
+\marginparsep 0cm
+\topmargin -1.8cm
+\headheight 0in
+\headsep 0in
+\textwidth 27.5cm
+\textheight 20.2cm
+\topskip 0in
+\footskip 0in
+\flushbottom
+
+
+\usepackage{multicol}
+
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+
+
+\title{Common knowledge is trivial without communication}
+\author{François {\sc Schwarzentruber}}
+\date{}
+
+
+\newcommand{\umlpiccard}[4]
+{\begin{tikzpicture}
+%orange!10!
+\node[fill=white,draw=blue!50!black,rounded corners,thick] 
+{\begin{minipage}[b][9.5cm][t]{6.6cm}
+\begin{center}
+\textbf{\raisebox{-0.3\height}{\includegraphics[scale=0.2]{Unified_Modeling_Language.jpg}} Pictionary}
+%
+\vfill
+\begin{tabular}{m{0.7cm}p{4.6cm}}
+\raisebox{-0.8\height}{\includegraphics[scale=0.5]{use-case-diagram.png}} & #1 \tabularnewline
+\hline
+\raisebox{-0.8\height}{\includegraphics[scale=0.5]{class-diagram.png}} & #2 \tabularnewline
+\hline
+\raisebox{-0.8\height}{\includegraphics[scale=0.5]{sequence-diagram.png}} & #3 \tabularnewline
+\hline
+\raisebox{-0.8\height}{\includegraphics[scale=0.5]{interrogation.png}} & #4
+\end{tabular}\vfill\end{center}\end{minipage}};
+\end{tikzpicture}\hspace{-1mm}}
+
+\newcommand{\instruction}{\textit}
+
+\newcommand{\newrow}{}
+
+\newcommand{\challenge}{\includegraphics[scale=0.05]{sun.jpg}}
+
+\begin{document}
+
+
+\input{generated_cards.tex}
+%\umlpiccard
+%{Les activités de "Top Mobilier"
+%sont la vente "multiproduits" (objets de décoration) et la vente de
+%meubles; celle-ci se fait "à
+%emporter"ou "en livraison"}
+%{Un tabouret et une chaise sont
+%des sortes de sièges qui ont
+%respectivement 3 et 4 pieds.}
+%{\instruction{Choisir n'importe quelle autre
+%question sur la carte}}
+%{Avec le téléphone, on peut appeler
+%ou être appelé.}
+%%
+%%
+%%
+%\umlpiccard
+%{\instruction{Relancer le dé}}
+%{Une pièce contient des murs.}{Alice insère sa carte dans le
+%DAB qui lui demande son
+%code, elle l'entre, le DAB lui
+%damande combien elle veut
+%retirer, Alice répond 50, elle
+%recoit l'argent, sa carte et
+%un recu.}
+%{\instruction{Relancer le dé}}
+%%
+%%
+%\umlpiccard{Sur cette machine à café, on
+%peut insérer de l'argent, demander
+%une boisson, ou obtenir
+%un remboursement.}
+%{La vie est une sorte de boite
+%de chocolats.}
+%{Fred demande 20 euros à sa
+%mère, qui le les lui donne
+%après être allée les retirer au
+%distributeur.}
+%{Jésus crie, la caravane passe
+%et les ciseaux aboient.}
+\end{document}
+
+

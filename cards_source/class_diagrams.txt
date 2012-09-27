@@ -1,0 +1,44 @@
+Un tabouret et une chaise sont des sortes de sièges qui ont respectivement 3 et 4 pieds.
+Une pièce contient des murs.
+La vie est une sorte de boite de chocolats.
+\challenge Tout chien qui aboie ne mord pas.
+Il y a 2 sortes de cowboys, ceux qui ont le revolver et ceux qui creusent
+\challenge Les animaux sont soit des herbivores soit des carnivores soit des omnivores qui mangent donc soit des végétaux, d'autres animaux ou les deux.
+Le monde est composé de 2 catégories de personnes : les loosers et les tricheurs
+les rectangles et les triangles sont des polygones ; un polygone comporte au moins trois segments.
+\challenge La femme est l'avenir de l'homme.
+\challenge \emph{Relancer le dé}
+La vie est un long fleuve tranquille
+Une ressource est une image, une applet, ou un document html ; elle peut faire référence à d'autres ressources.
+Plusieurs bâtiments peuvent avoir la même adresse.
+\challenge Le chat est un mammifère quadrupède sachant marcher et courir.
+Les entrepôts servent à stocker des produits avec une quantité de produit dans chacun.
+\challenge Le monde est composé de 3 catégories de personnes : ceux qui savent compter et les autres.
+Les chats sont des félidés, les chiens sont des canidés, ces deux familles font partie des mammifères.
+\challenge Pour ta boisson, tu peux choisir des compléments tels que lait ou sucre.
+\challenge Les animaux se déplacent dans l'eau, dans l'air ou sur le sol; les phoques se déplacent dans l'eau ou sur le sol, les vautours en l'air ou sur le sol.
+\challenge Mon nom est personne
+Un arbre de Noël est décoré par des boules, des guirlandes, et des denrées périssables telles que fruits, bonbons, ...
+Les hommes et les femmes peuvent portent des vêtements tels que pantalon, veste; les femmes portent aussi des robes
+\challenge L'homme est loup pour l'homme
+Pour faire un cours, il faut, une salle, un prof et des élèves
+Les élèves ont une note dans chaque matière
+\challenge Tous les chats savent miauler
+\challenge Tous les oiseaux savent voler, sauf les autruches et les poules qui marchent et les pingouins qui nagent.
+Un menu comprend soit une entrés et un plat, soit un plat et un dessert
+Il existe 2 sortes de trucs, les trucs simples et les trucs composés. Les trucs composés sont composés de trucs.
+Dans une voiture, il y a obligatoirement un feu arrière de brouillard et exceptionnellement un feu avant de brouillard.
+\challenge Dans une voiture, les clignotants, l'alarme sonore, les warnings et les essuies-glace sont des dispositifs tout ou rien cadencés.
+Le bon, la brute et le truand sont des cow-boys.
+\challenge Les ennemis de mes ennemis sont mes amis
+L'argent est le nerf de la guerre 
+\challenge La religion est l'opium du peuple
+Au contraire des bicyclettes, les voitures, les bus et les camions sont des sortes de véhicules ayant un moteur diesel ou essence.
+Un répertoire contient des fichiers ou d'autres répertoires connus par leur nom.
+\challenge Les animaux se déplacent dans l'eau, dans l'air ou sur le sol; les phoques se déplacent dans l'eau ou sur le sol, les vautours en l'air ou sur le sol.
+Les rectangles et les triangles sont des polygones; un polygone comporte au moins trois segments, comme bords.
+\challenge Une personne peut être embauchée plusieurs fois chez le même employeur et peut avoir exercé plusieurs fonctions chez le même employeur ou la même fonction chez des employeurs différents.
+\challenge Un homme et une femme peuvent se marier, deux personnes peuvent se pacser.
+Une pièce contient des murs.
+Une ressource est une image, une applet, ou un document html ; elle peut faire référence à d'autres ressources.
+Il y a 10 sortes de personnes, ceux qui connaissent le binaire et les autres.
